@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin:0%
+}
+
+#pagina{
+    background-image: url(../images/fundo-home.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+header{
+    /*100% de largura*/
+    width: 100%;
+    height:40px;
+    padding: 10px 0px;
+    background-color: #461220;
+}
+
+/*siga 100% do elemento pai*/
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    width: auto;
+    height: 45px;
+    float: right;
+    line-height: 45px;
+    margin: 0px 20px;
+}
+
+a{
+    color: #fff0f3;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 0px 10px;
+    background-color: #800e13;
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+
+main{
+    width: 90%;
+    background-color: #69695871;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: #2e302696 6px 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: #38040e;
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+    height: 700px;
+    margin: 10px 0px;
+    /*background-image: url(../images/imagem-piano.jpg);*/
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+h3{
+    font-size: 30px;
+    color: #fff6f8;
+    margin: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-shadow: rgb(119, 121, 117);
+    text-align:left;
+    color: #ececec;
+    text-shadow: #38040e;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #38040e;
+    color:azure;
+}
+
+footer p{
+    font-size: 15px;
+    text-align: center;
+}
