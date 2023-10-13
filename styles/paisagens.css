@@ -1,36 +1,38 @@
 main{
-    margin: 20px 0px;
-    background-color: #ddbea9;
+    /*margin: 20px 0px;*/
+    background-color:#2e717d;
     padding: 20px 0px;
 }
 
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: #46494c;
+    color: #ffffff;
 }
 
 section{
-    width: 40%;
+    width: 100%;
     height: auto;
     padding: 20px;
-    background-color: white;
+    background-color:#aab4b6b9;
     margin: 10px auto;
-    border: 2px solid #d1be9c;
-    border-radius: 20px;
+    border: 2px solid #2e717d;
+    min-height: 0; 
+    margin: 10px auto;
 }
 
 .postagem{
-    width: 100%;
-    height: 250px;
-    background-color: #efe5dc;
+    height: 350px;
+    overflow: hidden;
     margin: 20px 0;
-
+    overflow: hidden;
+    background-color: rgb(240, 231, 200);
 }
+
 
 .imagemPostagem{
     width: 50%;
-    height: 100%;
+    height: auto;
     float: left;
 }
 
@@ -38,13 +40,14 @@ section{
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+    object-fit: cover;
 }
 
 .textoPostagem{
     width: 50%;
-    height: 100%;
     float: right;
     flex-wrap: wrap;
+    height: auto; 
 }
 
 .textoPostagem p{
