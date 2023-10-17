@@ -5,7 +5,7 @@ main{
 
 h1{
     font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
     color: #ffffff;
 }
@@ -28,6 +28,8 @@ section{
 img{
     width: 20%;
     height: auto;
+    border-radius: 10px;
+    
 }
 
 p{
@@ -38,6 +40,7 @@ p{
 }
 
 h3{
+    font-size: 20px;
     color: #a11616;
     margin: 20px;
 }
