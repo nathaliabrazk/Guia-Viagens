@@ -15,18 +15,19 @@ section{
     height: auto;
     padding: 20px;
     background-color:#aab4b6b9;
-    margin: 10px auto;
+    margin: 20px auto;
     border: 2px solid #2e717d;
     min-height: 0; 
-    margin: 10px auto;
 }
 
-.postagem{
+.postagem {
     height: 350px;
     overflow: hidden;
-    margin: 20px 0;
+    margin: 30px;
+    margin-right: 80px;
     overflow: hidden;
     background-color: rgb(240, 231, 200);
+    border-radius: 30px;
 }
 
 
