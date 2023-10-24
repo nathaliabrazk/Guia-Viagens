@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+#pagina{
+    background-color: #aab4b6ef;
+}
+
 h1{
     background-color: #2e717d;;
     color: rgb(255, 255, 255);
@@ -11,8 +15,8 @@ h1{
 
 main{
     background-color: #aab4b6b9;
-    height: 800px;
-    width: 3500px;
+    height: auto;
+    width: 100%;
 }
 
 @keyframes mudaBackground {
@@ -20,58 +24,19 @@ main{
         background-image: url(../images/ultima-pagina-1.jpg);
         transition: 5s;
     }
-    6.80%{
+    25%{
         background-image: url(../images/ultima-pagina-2.jpg);
         transition: 1s;
     }
-    13.66%{
+    45%{
         background-image: url(../images/ultima-pagina-3.jpg);
         transition: 1s;
-    }20%{
+    }85%{
         background-image: url(../images/ultima-pagina-4.jpg);
         transition: 1s;
     }
-    27%{
-        background-image: url(../images/ultima-pagina-5.jpg);
-    }
-    33.33%{
-        background-image: url(../images/ultima-pagina-6.jpg);
-        transition: 1s;
-    }
-    40%{
-        background-image: url(../images/ultima-pagina-7.jpg);
-        transition: 1s;
-    }
-    46.67%{
-        background-image: url(../images/ultima-pagina-8.jpg);
-        transition: 1s;
-    }
-    53.33%{
-        background-image: url(../images/ultima-pagina-9.jpg);
-        transition: 1s;
-    }
-    60%{
-        background-image: url(../images/ultima-pagina-10.jpg);
-        transition: 1s;
-    }
-    66.67%{
-        background-image: url(../images/ultima-pagina-11.jpg);
-        transition: 1s;
-    }
-    73.33%{
-        background-image: url(../images/ultima-pagina-12.jpg);
-        transition: 1s;
-    }
-    80%{
-        background-image: url(../images/ultima-pagina-13.jpg);
-        transition: 1s;
-    }
-    86.67%{
-        background-image: url(../images/ultima-pagina-14.jpg);
-        transition: 1s;
-    }
     100%{
-        background-image: url(../images/ultima-pagina-15.jpg);
+        background-image: url(../images/ultima-pagina-5.jpg);
         transition: 1s;
     }
 }
@@ -87,4 +52,6 @@ main{
     align-items: center;
     display: flex;
     justify-content: center; 
+    margin-left: 200px;
+    margin-bottom: 50px;
 }
