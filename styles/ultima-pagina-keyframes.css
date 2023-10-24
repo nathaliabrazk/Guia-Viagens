@@ -11,6 +11,7 @@ h1{
     background-color: #2e717d;;
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
+    font-family: Akira;
 }
 
 main{
@@ -24,26 +25,37 @@ main{
         background-image: url(../images/ultima-pagina-1.jpg);
         transition: 5s;
     }
-    25%{
+    20%{
         background-image: url(../images/ultima-pagina-2.jpg);
         transition: 1s;
     }
-    45%{
+    40%{
         background-image: url(../images/ultima-pagina-3.jpg);
         transition: 1s;
-    }85%{
+    }60%{
         background-image: url(../images/ultima-pagina-4.jpg);
         transition: 1s;
     }
-    100%{
+    80%{
         background-image: url(../images/ultima-pagina-5.jpg);
         transition: 1s;
     }
+    100%{
+        background-image: url(../images/ultima-pagina-6.jpg);
+        transition: 1s;
+    }
+
+
+}
+
+@font-face {
+    font-family: Akira ;
+    src: url(../fonts/akira_expanded/Akira\ Expanded\ Demo.otf);
 }
 
 #caixaImagem{
-    width: 950px;
-    height: 550px;
+    width: 60%;
+    height: 500px;
     background-image: url(../images/ultima-pagina-1.jpg);
     background-size: cover;
     background-position: right;
@@ -52,6 +64,4 @@ main{
     align-items: center;
     display: flex;
     justify-content: center; 
-    margin-left: 200px;
-    margin-bottom: 50px;
 }
