@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');/*Spirax*/
+
 *{
     padding: 0%;
     margin:0%
+}
+
+header h2{
+    font-family: 'Spirax';
+    color: aqua;
 }
 
 #pagina{
@@ -35,7 +42,6 @@ nav{
 
 a{
     color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     margin: 0px 10px;
     background-color: #800e13;
@@ -50,7 +56,6 @@ main{
     margin: 0 auto;
     border-radius: 20px;
     box-shadow: #2e302696 6px 6px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #banner{
@@ -85,12 +90,10 @@ h2{
     color: #dbcfd2;
     margin: 20px;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
 }
 
 p{
     width: 95%;
-    font-family:Times, serif;
     font-size: 20px;
     text-shadow: rgb(119, 121, 117);
     text-align:left;

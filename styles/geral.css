@@ -1,10 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@500&display=swap');/*Gupter*/
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');/*Spirax*/
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');/*Elsie Swash Caps*/
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');/*Lancelot*/
+
 *{
     padding: 0%;
     margin:0%;
+    font-family: 'Lancelot';
 }
 
+/*FONTES*/
+header h2{
+    font-family: 'Spirax';
+    color: aqua;
+}
+
+h2, h3, h4{
+    color: #fff0f3;
+    text-align: center;
+}
+
+/*FIM FONTES*/
+
 header{
-    /*100% de largura*/
     width: 100%;
     height:40px;
     padding: 10px 0px;
@@ -36,7 +55,6 @@ nav{
 
 a{
     color: #fff0f3;
-    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     margin: 0px 10px;
     background-color: #800e13;
@@ -46,12 +64,10 @@ a{
 
 
 h2{
-    color: #d81159;
     text-align: center;
 }
 
 h3{
-    color: #d81159;
     margin: 20px;
 }
 

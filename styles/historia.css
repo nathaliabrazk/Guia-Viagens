@@ -5,7 +5,6 @@ main{
 
 h1{
     font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
     text-align: center;
     color: #ffffff;
 }
@@ -34,7 +33,6 @@ img{
 p{
     width: 100%;
     height: auto;
-    font-family:Tahoma;
     font-size: 20px;
 }
 

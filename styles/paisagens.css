@@ -1,15 +1,9 @@
+
 main{
-    /*margin: 20px 0px;*/
     background-color:#2e717d;
     padding: 20px 0px;
 }
-
-h1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #ffffff;
-}
-
+ 
 section{
     width: 100%;
     height: auto;
@@ -57,7 +51,6 @@ section{
 }
 
 h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #780116;
     text-align: center;
 }
