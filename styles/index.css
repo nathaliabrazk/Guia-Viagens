@@ -5,11 +5,6 @@
     margin:0%
 }
 
-header h2{
-    font-family: 'Spirax';
-    color: aqua;
-}
-
 #pagina{
     background-image: url(../images/fundo-home.jpg);
     background-size: cover;
@@ -83,13 +78,6 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50px;
-}
-
-h2{
-    font-size: 30px;
-    color: #dbcfd2;
-    margin: 20px;
-    text-align: center;
 }
 
 p{

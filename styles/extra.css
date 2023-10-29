@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.conteudo {
+    height: 400px;
+    width: 60%;
+    margin: 0 auto;/*centraliza*/
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(27, 109, 141, 0.26);
+}
+
+h1{
+    margin: 30px;
+}
+
+@keyframes mudaBackground {
+    0%{
+        background-image: url(../images/extra-img-1.jpg);
+        transition: 5s;
+    }
+    20%{
+        background-image: url(../images/extra-img-2.jpg);
+        transition: 1s;
+    }
+    40%{
+        background-image: url(../images/extra-img-3.jpg);
+        transition: 1s;
+    }60%{
+        background-image: url(../images/extra-img-4.jpg);
+        transition: 1s;
+    }
+    80%{
+        background-image: url(../images/extra-img-5.jpg);
+        transition: 1s;
+    }
+    100%{
+        background-image: url(../images/extra-img-6.jpg);
+        transition: 1s;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/card-extra.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#caixaImagem{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/ultima-pagina-1.jpg);
+    background-size: cover;
+    background-position: right;
+    animation: mudaBackground 10s infinite;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    margin: 0px auto;/*centraliza*/
+}

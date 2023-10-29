@@ -3,11 +3,19 @@ main{
     padding: 20px 0px;
 }
 
+/*FONTES
 h1{
     font-size: 30px;
     text-align: center;
     color: #ffffff;
 }
+*/
+h3{
+    font-size: 20px;
+    color: #a11616;
+    margin: 20px;
+}
+/*FIM FONTES*/
 
 main{
     background-color:#2e717d;
@@ -36,8 +44,32 @@ p{
     font-size: 20px;
 }
 
-h3{
-    font-size: 20px;
-    color: #a11616;
-    margin: 20px;
+#elenco{
+    display: flex;
+    align-items:center;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center; 
 }
+
+.elenco-item {
+    margin: 5px; /* Adicione margem entre cada item do elenco */
+    width: 30%;
+    align-items: center;
+}
+
+.elenco-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.elenco-item p {
+    font-size: 20px;
+}
+
+
+
+

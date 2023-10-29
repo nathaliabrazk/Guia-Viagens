@@ -13,12 +13,19 @@
 /*FONTES*/
 header h2{
     font-family: 'Spirax';
-    color: aqua;
+    text-align: center;
+    color:bisque;
+    padding: 5px;
 }
 
 h2, h3, h4{
-    color: #fff0f3;
+    color:bisque;
     text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:bisque;
 }
 
 /*FIM FONTES*/
@@ -37,6 +44,7 @@ header{
     overflow: hidden;
     float: left;
     max-width: 100%; 
+    border-radius: 10px;
 }
 
 /*siga 100% do elemento pai*/
@@ -54,7 +62,7 @@ nav{
 }
 
 a{
-    color: #fff0f3;
+    color:bisque;
     text-decoration: none;
     margin: 0px 10px;
     background-color: #800e13;
@@ -62,6 +70,10 @@ a{
     border-radius: 10px;
 }
 
+a:hover{
+    background-color: #f3074673;
+    color: antiquewhite;
+}
 
 h2{
     text-align: center;
@@ -86,4 +98,3 @@ footer p{
     font-size: 15px;
     text-align: center;
 }
-   
