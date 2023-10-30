@@ -7,12 +7,8 @@ p{
 }
 
 a:hover{
-    background-color: #f3074673;
-    color: antiquewhite;
-}
-
-#page{
-    background-color: #2e717d;
+    background-color: #db0808c5;
+    color: white;
 }
 
 main{
@@ -32,17 +28,16 @@ section{
 }
 
 .postagem {
-    height: 480px;
+    height: 438px;
     overflow: hidden;
     margin: 30px;
     overflow: hidden;
-    background-color: rgb(240, 231, 200);
+    background-color: rgba(240, 231, 200, 0.767);
     border-radius: 30px;
 }
 
-
 .imagemPostagem{
-    width: 65%;
+    width: 55%;
     height: auto;
     float: left;
 }
@@ -54,15 +49,30 @@ section{
     object-fit: cover;
 }
 
+.textoPostagem a {
+    display: block; /* Torna as âncoras elementos de bloco */
+    text-align: center; /* Centraliza o texto dentro das âncoras */
+    margin-top: 10px; /* Adicione margem superior para espaçamento */
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+    margin-left: 130px;
+}
+
 .textoPostagem{
-    width: 35%;
+    width: 45%;
     float: right;
     flex-wrap: wrap;
     height: auto; 
     text-align: justify;
+    
 }
 
 .textoPostagem p{
     margin: 20px;
     flex-wrap: wrap;/*para a orientação e responsividade*/
+}
+
+h3{
+    color: rgb(39, 27, 27);
 }

@@ -68,12 +68,17 @@ a{
     background-color: #800e13;
     padding: 0px 15px;
     border-radius: 10px;
+    align-items: center;
 }
 
 a:hover{
+    background-color: #db0808c5;
+    color: white;
+}
+/*a:hover{
     background-color: #f3074673;
     color: antiquewhite;
-}
+}*/
 
 h2{
     text-align: center;
