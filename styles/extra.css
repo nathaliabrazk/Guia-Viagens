@@ -66,3 +66,14 @@ body {
     justify-content: center; 
     margin: 0px auto;/*centraliza*/
 }
+
+footer{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #38040e;
+    color:azure;
+    margin-top: 30px;
+}

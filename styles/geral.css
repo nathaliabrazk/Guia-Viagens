@@ -75,10 +75,6 @@ a:hover{
     background-color: #db0808c5;
     color: white;
 }
-/*a:hover{
-    background-color: #f3074673;
-    color: antiquewhite;
-}*/
 
 h2{
     text-align: center;
@@ -101,4 +97,8 @@ footer{
 footer p{
     font-size: 15px;
     text-align: center;
+}
+
+p{
+    text-indent: 50px;
 }

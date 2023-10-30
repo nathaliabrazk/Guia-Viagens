@@ -3,13 +3,6 @@ main{
     padding: 20px 0px;
 }
 
-/*FONTES
-h1{
-    font-size: 30px;
-    text-align: center;
-    color: #ffffff;
-}
-*/
 h3{
     font-size: 20px;
     color: #a11616;
@@ -26,7 +19,7 @@ section{
     width: 80%;
     height: auto;
     padding: 20px;
-    background-color: white;
+    background-color: #dbe1e2e3;
     margin: 20px auto;
     border: 8px solid #aab4b6b9;
     border-radius: 20px;

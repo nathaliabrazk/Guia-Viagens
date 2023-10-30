@@ -1,0 +1,52 @@
+#pagina{
+    background-color: rgba(17, 46, 18, 0.856);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    /*background-color:#2e717d;*/
+    padding: 20px 0px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/fundo-historia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 0;
+}
+
+body{
+    height: 100%;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    margin: 20px auto;
+    min-height: 0; 
+    background-color: black;
+}
+
+.caixa{
+    width: 50%;
+    height: 300px;
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.caixa-conteudo{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    margin: 0px auto;
+}
+
+#mapa{
+    height: 100px;
+    width: 50px;
+}
